@@ -1,0 +1,169 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+--primary:blue;
+--secondary:#ffd936;
+--white:#efefef;
+} 
+
+body{
+font-family: "DM Sans",sans-serif;
+color: var(--primary);
+}
+
+#main {
+    background-image:url(IMG-20241122-WA0036.jpg);
+    min-height: 70vh;
+    background-position: bottom center;
+     background-size: cover;
+      a{
+text-decoration: none;
+     }
+}
+.container {
+max-width: 1200px;
+padding: 16px;
+margin: auto;
+
+}
+nav{
+display: flex;
+justify-content: space-between;
+}
+
+.nav-list{
+display: flex;
+list-style-type: none;
+gap: 30px;
+align-items: center;
+}
+
+.nav-list a{
+color: #efefef;
+}
+
+.btn{
+padding: 12px 20px;
+background: transparent;
+outline: none;
+cursor: pointer;
+border-radius: 5px;
+}
+.btn-secondary{
+color: #efefef;
+border: 2px solid ;
+font-weight: bold;
+}
+.btn-primary{
+border: none;
+background: #ffd936;
+color:536942 ;
+}
+ .main-content{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 80px;
+color: blue;
+
+ } 
+
+ .main-content .intro-heading{
+     font-size: 50px;
+
+ }
+ .main-content .main-heading{
+    max-width: 110px;
+    margin-bottom: -20px;
+ }
+ main-content p{
+max-width: 3000px;
+margin-bottom: 10px;
+ }
+.menu-btn{
+position: absolute;
+top: 20px;
+right: 20px;
+display: none;
+width: 30px;
+}
+.section-title h1 {
+font-size: 50px;
+text-align: center;
+}
+.section-title .line{
+width: 150px;
+height: 4px;
+border: 10px;
+background: #ffd936;
+margin: auto;
+}
+.services img{
+    width: 400px;
+}
+
+#testimonials{
+background: #efefef;
+
+}
+.fitz{
+    width: 400px;
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width:520px){
+  .menu-btn{
+    display: block;
+  }
+
+    .nav-list{
+flex-direction: column;
+background: grey;
+position: absolute;
+top: 0;
+right: 0;
+width: 80%;
+height: 100%;
+padding-top: 80px;
+transition: 0.3s;
+    }
+    .nav-list .active{
+        right: 0;
+    } 
+ 
+
+ .nav-list li:not(:last-child){
+text-align: left;
+width: 100%;
+padding: 10px 30px;
+border-bottom: 1px solid var(--white);
+}
+
+}
+
+.lago{
+width: 400px;
+}
+
+.boss{
+width: 300px;
+
+}
+
+.menu.png{
+float: left;
+width: 100px;
+}

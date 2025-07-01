@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Geraldie kyalo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mhindiwebsites"
+	}
+}

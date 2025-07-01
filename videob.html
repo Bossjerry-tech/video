@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider Designer</title>
+    <style>
+#container{
+width: 800px;
+overflow: hidden;
+}
+
+
+
+#sliderbox{
+position: relative;
+width: 3200px;
+animation-name: slideranimation;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+
+}
+#sliderbox img{
+float: left;
+width: 200pxpx;
+height: 400px;
+margin: 5px;
+}
+
+@keyframes slideranimation{
+0%
+{
+left:0px;
+}
+20% /*4 second*/
+{
+    left: 0px;
+}
+
+25% /* 5 Second*/
+{
+left: -800px;
+
+}
+45% /*9 second*/
+{
+    left: -800px;
+}
+50% /* 10 second*/
+{
+    left: -1600px;
+}
+70% /*14 second*/
+{
+   left: -1600px; 
+}
+75% /*  15 second*/
+[
+left: -2400px;     
+]
+
+
+
+}
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+      <div id="sliderbox">
+<img src="pic (4).jpeg" alt="....">
+<img src="pic (6).jpeg" alt="....">
+<img src="pic (7).jpeg" alt="....">
+<img src="pic (8).jpeg" alt="....">
+      </div>
+ </div>
+</body>
+</html>
